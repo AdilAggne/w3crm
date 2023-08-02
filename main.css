@@ -1,0 +1,139 @@
+.head {
+  padding: 10px 35px;
+  font-size: large;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: var(--basic-shadow);
+}
+
+.head-start {
+  display: flex;
+  gap: 20px;
+}
+
+.add-task-btn {
+  color: #0d99ff;
+  cursor: pointer;
+}
+
+.path,
+.path svg {
+  color: #828690;
+  font-size: 0.9rem;
+}
+
+.path span {
+  color: #0d99ff;
+}
+
+.main-body {
+  height: 100%;
+}
+
+.main-body > div {
+  padding: 30px;
+  display: flex;
+  gap: 40px;
+  text-align: center;
+}
+
+.main-body div .left-1 {
+  flex: 3;
+}
+
+.main-body div .right-1 {
+  background-color: white;
+  flex: 1;
+}
+
+.main-body div .left-1 .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.mini-card {
+  width: 100%;
+  background-color: white;
+  box-shadow: var(--basic-shadow);
+}
+
+.mini-card .badge {
+  background-color: rgba(15, 155, 255, 0.1);
+  border-radius: 10px;
+  padding: 9px 15px;
+  display: grid;
+  place-items: center;
+}
+
+.mini-card .details {
+  font-size: 0.9rem;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.mini-card .details .value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-body div .left-1 .down {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.main-body div .left-1 .down .chart {
+  background-color: white;
+  flex: 2;
+}
+
+.main-body div .left-1 .down .todo {
+  background-color: white;
+  flex: 1;
+}
+
+.main-body div .left-2,
+.main-body div .right-2 {
+  background-color: white;
+  flex: 1;
+}
+
+.main-body div .left-3,
+.main-body div .right-3 {
+  flex: 1;
+  background-color: white;
+}
+
+.main-body div .middle-3 {
+  flex: 2;
+  background-color: white;
+}
+
+.left-4,
+.right-4 {
+  background-color: white;
+}
+
+.right-4 {
+  flex: 3;
+}
+
+.active-proj-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.active-proj-head .actions .btn-icon {
+  cursor: pointer;
+  background-color: rgba(35, 164, 255, 0.1);
+  padding: 10px;
+  color: #0d99ff;
+}
